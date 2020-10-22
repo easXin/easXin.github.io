@@ -1,0 +1,265 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  font-weight: 100;
+  font-family: "Montserrat";
+  width: auto;
+}
+
+.cl-effect-10 a span {
+  font-size: 19px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  padding: 15px 15px;
+  box-shadow: inset 0 3px rgb(231, 233, 234);
+  transform-origin: 0% 50%;
+}
+
+.cl-effect-10 a span::before {
+  padding: 15px 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  color: #2f4351;
+  content: attr(data-hover);
+  transform: rotateX(270deg);
+  transition: transform 0.6s;
+  transform-origin: 0 0;
+  pointer-events: none;
+}
+
+.cl-effect-10 a:hover span,
+.cl-effect-10 a:focus span {
+  background: #2f4351;
+}
+
+.cl-effect-10 a:hover span::before,
+.cl-effect-10 a:focus span::before {
+  transform: rotateX(10deg);
+}
+
+.navbar .container .navbar-brand{
+  margin-left: 15px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 20px;
+}
+.navbar-wrapper, .navbar{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding-top:50px;
+}
+
+.navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.carousel,
+.carousel .item {
+  height: 925px;
+}
+
+.img1 {
+  width: 500px;
+  height: 540px;
+  border-radius: 10%;
+}
+
+.img2 {
+  width: 250px;
+  height: 340px;
+  border-radius: 10%;
+}
+
+.img3{
+  height: 150px";
+}
+
+
+ h3.text-center{
+  font-size: 35px;
+  font-weight: normal;
+  padding: 20px 0;
+  font-family: "Montserrat", sans-serif;
+}
+section.myPast p.text-center{
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px 0 50px;
+}
+
+section.myPast p.storyTime {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 32px;
+  padding-bottom: 20px;
+  color: #a7a7a7;
+}
+
+section.mySkill {
+  padding: 100px 0;
+  background: url("../imgs/bg1.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+#skill .ac a {
+  font-size: 20px;
+  font-weight: normal;
+  color: beige;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+#skill p {
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 27px;
+  color: #fff;
+}
+
+section.mySkill {
+  margin: 0 auto;
+}
+
+section.expre {
+  padding: 100px 0;
+  background: url("../imgs/ny.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+section.expre h4.text-center {
+  font-size: 20px;
+  color: #fff;
+  font-weight: normal;
+  padding: 30px 0 20px;
+}
+section.expre p.eve {
+  font-size: 17px;
+  color: #fff;
+  line-height: 25px;
+  font-weight: 100;
+  padding: 0 50px 45px;
+}
+section.expre .expInfo {
+  background-color: rgba(19, 29, 0, 0.67);
+  transition: all 0.5s ease-in-out;
+}
+section.expre .expInfo:hover{
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+section.myProject {
+  padding: 100px 0;
+}
+section.myProject {
+  display: inline;
+  width: 280px;
+  margin-bottom: 4px;
+}
+#headline{
+  margin-top: 300px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+
+  background-color: rgba(0, 0, 0, 0.64);
+  
+  transition: all 0.9s ease-in-out;
+}
+#headline:hover{
+  background: rgba(0, 0, 0, 0.88);
+  transition: all 0.9s ease-in-out;
+}
+
+section.myStudentLife {
+  padding: 100px 0;
+  background: url("../imgs/UBLIB.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+  color:white;
+}
+
+section.myStudentLife .accomplishment img.img-responsive {
+  width: 120px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+section.myStudentLife h4.text-center {
+  font-size: 15px;
+  font-weight: normal;
+  padding: 20px 0;
+  font-family: "Montserrat", sans-serif;
+}
+section.myStudentLife p.t1 {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 25px;
+  padding: 0 30px 30px;
+}
+section.myStudentLife .accomplishment {
+  background-color: rgba(0, 0, 0, 0.64);
+  border: 5px solid rgba(0, 0, 0, 0.33);
+  transition: all 0.5s ease-in-out;
+}
+section.myStudentLife .accomplishment:hover {
+  background-color: rgba(0, 0, 0, 0.88);
+}
+
+
+section.footer {
+  height: 125px;
+  background-color: #222;
+  color: #fff;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 1px;
+  text-align: center;
+}
+.center p{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.slide {
+  animation-name: slide;
+  animation-duration: 1s;
+  visibility: visible;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 2px;
+  border-radius: 50%;
+
+}
+.fa>a:hover {
+  text-decoration: none;
+}
